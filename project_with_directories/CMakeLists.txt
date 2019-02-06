@@ -1,6 +1,8 @@
 # 3.0 for modern, target-based CMake. 3.1 for use of CXX_STANDARD in targets.
 cmake_minimum_required(VERSION 3.1)
 
+project(multiple_dirs)
+
 # Bring in headers (student.h) into project
 include_directories(include)
 
