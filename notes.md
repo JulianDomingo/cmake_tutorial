@@ -13,4 +13,5 @@
 #### Tips
 * Don't forget to **exclude** the **build/** directory from version control by adding a
     **.gitignore** file at the same level as the top-level directories of the
-    projoect.
+    project
+* Make sure to **rerun cmake** when updating project source / header files
