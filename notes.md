@@ -21,9 +21,8 @@
 * Typically larger in file size compared to shared libraries, meaning slower compile time, but at
     the benefit of faster run time loading costs / less platform dependent.
 * **Unless certain you require a static lib**, use a shared library.
-Use **nm** command to determine symbols / types in object files and binaries:
-    * **T** is code, **U** is undefined, **R** is read-only data
-
+Use **nm -C <shared_lib>.so** command to determine symbols / types in object files and binaries. 
+**T** is code, **U** is undefined, **R** is read-only data:
 ```zsh
 λ ~/git/cmake_tutorial/static_library/build/ master* nm -C libstudent.a
 
