@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/linked_so_a_libs.dir/src/main.cc.o  -o linked_so_a_libs  -L/home/ANT.AMAZON.COM/jddoming/git/cmake_tutorial/linking_static_shared_libs/../shared_library/build -rdynamic -lstudent -Wl,-rpath,/home/ANT.AMAZON.COM/jddoming/git/cmake_tutorial/linking_static_shared_libs/../shared_library/build 

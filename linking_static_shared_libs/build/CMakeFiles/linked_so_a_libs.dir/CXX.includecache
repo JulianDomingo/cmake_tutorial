@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../../shared_library/include/student/student.h
+string
+-
+
+/home/ANT.AMAZON.COM/jddoming/git/cmake_tutorial/linking_static_shared_libs/src/main.cc
+student/student.h
+-
+

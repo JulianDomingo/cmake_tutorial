@@ -2,7 +2,7 @@
 
 int main(int argc, char *argv[])
 {
-    Student julian("Julian");
-    julian.display();
+    Student sam("Sam");
+    sam.display(); 
     return 0;
 }

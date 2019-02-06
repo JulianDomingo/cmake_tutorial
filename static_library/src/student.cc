@@ -1,13 +1,9 @@
 #include <iostream>
-#include <student.h>
+#include <student/student.h>
 
-int test1(void)
-{
-    std::cout << "Test1" << std::endl;
-    return 1;
-}
+Student::Student(std::string name):name(name) {}
 
-void test2(void)
+void Student::display(void)
 {
-    std::cout << "Test2" << std::endl;
+    std::cout << "A student with name: " << this->name << std::endl;
 }
