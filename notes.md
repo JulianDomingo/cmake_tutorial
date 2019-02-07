@@ -1,6 +1,8 @@
 ### CMake
 * Cross-platform makefile generator (automatically generates makefiles for a
     project). Makefiles compile your project through **make**
+* Manages the build process completely independent of the OS / compiler through
+    a platform-independent CMakeLists.txt file.
 
 #### Project Structuring
 * Partition project to have **build/, includue/, and src/** directories
@@ -67,3 +69,11 @@ student.cc.o
     **.gitignore** file at the same level as the top-level directories of the
     project
 * Make sure to **rerun cmake** when updating project source / header files
+* Clock skew issue: 
+    ```
+    make: Warning: File xxx has modification time xxx in
+    the future
+    ```
+    ```
+    find . -exec touch {} \;
+    ```
